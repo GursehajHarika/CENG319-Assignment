@@ -33,5 +33,7 @@ https://github.com/GursehajHarika/CENG319-Assignment/tree/master/picassoassignme
 # Refrences
 
 https://stackoverflow.com/questions/28603191/how-to-add-picasso-library-in-android-studio
+
 http://square.github.io/picasso/
+
 https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library
