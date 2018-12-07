@@ -8,7 +8,8 @@
 # Introduction 
 
 Pictures make everything more appealing, especially in applications. Picasso image library makes the process of adding that magical element of having a picture in your application easy. usually in a one line of code.
-In picasso library, Pictures from the Internet, Data and even images from the memory get displayed.
+
+In picasso library, pictures from the Internet, Data and even images from the memory can all be displayed in  just a hand full of lines of code.
 
 # History
 
