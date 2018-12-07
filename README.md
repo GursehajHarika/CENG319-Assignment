@@ -78,6 +78,7 @@ under dependecies.Click on Sync button located on the top which looks like <img 
 # Refrences
 
 https://stackoverflow.com/questions/28603191/how-to-add-picasso-library-in-android-studio
-http://square.github.io/picasso
+http://square.github.io/picasso/
+
 https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library
 https://stacktips.com/tutorials/android/how-to-use-picasso-library-in-android
