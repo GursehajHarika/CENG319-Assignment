@@ -9,7 +9,7 @@
 
 Pictures make everything more appealing, especially in applications. Picasso image library makes the process of adding that magical element of having a picture in your application easy. usually in a one line of code.
 
-In picasso library, pictures from the Internet, Data and even images from the memory can all be displayed in  just a hand full of lines of code.
+In picasso library, pictures from the Internet, Data and even images from the memory can all be displayed.
 
 # History
 
@@ -18,21 +18,6 @@ In picasso library, pictures from the Internet, Data and even images from the me
 
 
 # The Major Meathods and Attributes
-
-
-
-
-
-# Example Project
-
-Here’s the link for my project that shows how the Picasso library works.
-
-https://github.com/GursehajHarika/CENG319-Assignment/tree/master/picassoassignment
-
-
-
-
-# Code 
 
 before you could start using this Library,there are some things that need to be done 
 
@@ -55,23 +40,46 @@ under dependecies.Click on Sync button located on the top which looks like <img 
  Note :- There is a Bug in the Picasso library, Any file larger than 10MB willl have a problem with loading your picture.
  
  then in the XML file, create a ImageView with all the necessary components, youre code should look somthing like this 
- 
- 
-  <ImageView
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="226dp"
         android:layout_height="272dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp" />
- 
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.052" />
+
+
  Now in the main Java class initalize the view,
+ 
  
      public ImageView imager;
    
       imager = (ImageView)findViewById(R.id.imageView);
 
+
+
+
+
+
+
+# Example Project
+
+Here’s the link for my project that shows how the Picasso library works.
+this project has one image being loaded from the internet and one from disk.
+
+https://github.com/GursehajHarika/CENG319-Assignment/tree/master/picassoassignment
+
+
+
+
+# Code 
 
 
 
