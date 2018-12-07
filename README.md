@@ -80,9 +80,6 @@ if you want to load from the disk try this
 
 
 
-![picasso_working2](https://user-images.githubusercontent.com/43185907/49633891-0c01fe00-f9c9-11e8-9b3b-8b4bdf376765.gif | 250x250)
-
-
 
 
 # Example Project
@@ -91,6 +88,11 @@ Here’s the link for my project that shows how the Picasso library works.
 this project has one image being loaded from the internet and one from disk.
 
 https://github.com/GursehajHarika/CENG319-Assignment/tree/master/picassoassignment
+
+below is a GIF attached to show how the application works.
+
+![picasso_working2](https://user-images.githubusercontent.com/43185907/49633891-0c01fe00-f9c9-11e8-9b3b-8b4bdf376765.gif | 250x250)
+
 
 
 
