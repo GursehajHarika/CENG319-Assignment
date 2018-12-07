@@ -80,7 +80,7 @@ if you want to load from the disk try this
 
 
 
-![picasso_working2](https://user-images.githubusercontent.com/43185907/49633891-0c01fe00-f9c9-11e8-9b3b-8b4bdf376765.gif)
+![picasso_working2](https://user-images.githubusercontent.com/43185907/49633891-0c01fe00-f9c9-11e8-9b3b-8b4bdf376765.gif | 250x250)
 
 
 
