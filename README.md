@@ -4,7 +4,6 @@
 
  Picasso Library 
 
-
 # Introduction 
 
 Pictures make everything more appealing, especially in applications. Picasso image library makes the process of adding that magical element of having a picture in your application easy. usually in a one line of code.
@@ -19,7 +18,7 @@ In picasso library, pictures from the Internet, Data and even images from the me
 
 # The Major Meathods and Attributes
 
-before you could start using this Library,there are some things that need to be done 
+before you could start using the Picasso Library, there are some things that need to be done 
 
 
 Either by going into 
@@ -60,12 +59,28 @@ under dependecies.Click on Sync button located on the top which looks like <img 
  
  
      public ImageView imager;
+     
+
+and add this in OnCreate,
    
       imager = (ImageView)findViewById(R.id.imageView);
 
+Finally ,in order to impliment the Picasso library add the following lines of code
+
+
+      Picasso.get().load(URL).into(imageview);
+      
+
+with URL being a String whose value is the link to the image you wish to load from.
+
+if you want to load from the disk try this
+
+        Picasso.get().load(R.mipmap.Image_name).into(imageview);
 
 
 
+
+![picasso_working](https://user-images.githubusercontent.com/43185907/49633791-b0d00b80-f9c8-11e8-8f02-bdd488a2c24e.gif)
 
 
 
@@ -91,3 +106,6 @@ http://square.github.io/picasso/
 
 https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library
 https://stacktips.com/tutorials/android/how-to-use-picasso-library-in-android
+
+the Image used in the Application is from 
+https://www.moma.org/d/assets/W1siZiIsIjIwMTYvMDgvMDQvMW1yOXAxYXRhN18yXzE5MzhfQ0NDUi5qcGciXSxbInAiLCJjb252ZXJ0IiwiLXJlc2l6ZSAyMDAweDIwMDBcdTAwM2UiXV0/2_1938_CCCR.jpg?sha=c75b58704e7f990d
