@@ -110,8 +110,12 @@ below is a GIF attached to show how the application works.
 
 # Refrences
 
-https://stackoverflow.com/questions/28603191/how-to-add-picasso-library-in-android-studio
+The main Link to Picasso Library's main page
 http://square.github.io/picasso/
+
+
+https://stackoverflow.com/questions/28603191/how-to-add-picasso-library-in-android-studio
+
 
 https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library
 https://stacktips.com/tutorials/android/how-to-use-picasso-library-in-android
