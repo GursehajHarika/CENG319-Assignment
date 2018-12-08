@@ -31,10 +31,9 @@ and Select Dependecies on the top option bar.
 
 <img width="516" alt="dependencies" src="https://user-images.githubusercontent.com/43185907/49680410-ed9c1100-fa61-11e8-8b45-2fe7033aea84.png">
 
-and then pres the '+' icon and search for picasso,
+and then pres the '+' icon and choose library. Search for picasso and add picasso library,
 
 <img width="664" alt="picasso_1" src="https://user-images.githubusercontent.com/43185907/49680426-1fad7300-fa62-11e8-816b-aac24655eacf.png">
-
 
 
 First, go into the AndroidManifest.XML
