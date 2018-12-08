@@ -24,7 +24,7 @@ before you could start using the Picasso Library, there are some things that nee
 Either by going into 
 
 First, go into the AndroidManifest.XML
-and add the following permission,
+and add the following permissions,
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
