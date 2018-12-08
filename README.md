@@ -21,7 +21,21 @@ In picasso library, pictures from the Internet, Data and even images from the me
 before you could start using the Picasso Library, there are some things that need to be done 
 
 
-Either by going into 
+Either by pressing the shift key twice and searching for "Project Structure", 
+
+on the left side toolbar, under Modules choose app.
+
+<img width="159" alt="modules_app" src="https://user-images.githubusercontent.com/43185907/49680392-cc3b2500-fa61-11e8-9961-d247767271ae.png">
+
+and Select Dependecies on the top option bar.
+
+<img width="516" alt="dependencies" src="https://user-images.githubusercontent.com/43185907/49680410-ed9c1100-fa61-11e8-8b45-2fe7033aea84.png">
+
+and then pres the '+' icon and search for picasso,
+
+<img width="664" alt="picasso_1" src="https://user-images.githubusercontent.com/43185907/49680426-1fad7300-fa62-11e8-816b-aac24655eacf.png">
+
+
 
 First, go into the AndroidManifest.XML
 and add the following permissions,
