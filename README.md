@@ -10,7 +10,7 @@ Pictures make everything more appealing, especially in applications. Picasso ima
 
 # History
 
-This is a fairly new component for android released in 2013, this library was created to make the process of downloading or caching images easier.
+This is a fairly new component for android released, Copyrighted by Square.Inc. and lisenced under the Apache License, Version 2.0 in 2013, the license can be priviewed [here](http://www.apache.org/licenses/LICENSE-2.0).Before the release of version 2.6.0, the library had a bug and was unable to download images of size bigger than 10MB.
 
 
 # The Major Methods and Code For Implementation 
@@ -32,9 +32,9 @@ and then pres the '+' icon and choose library. Search for picasso and add picass
 
 <img width="664" alt="picasso_1" src="https://user-images.githubusercontent.com/43185907/49680426-1fad7300-fa62-11e8-816b-aac24655eacf.png">
 
-## OR
+## OR 
 
-First, go into the AndroidManifest.XML
+Go into the AndroidManifest.XML
 and add the following permissions,
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -47,7 +47,7 @@ under Gradle Scripts, go in build.gradle and add
 
 under dependecies.Click on Sync button located on the top which looks like <img width="51" alt="syncgradleicon" src="https://user-images.githubusercontent.com/43185907/49630410-0356fb00-f9bc-11e8-891a-b667deff6c84.png">
  
- Note :- There is a Bug in the Picasso library, Any file larger than 10MB willl have a problem with loading your picture.
+ ### Note :- There is a Bug in the Picasso library for versions before 2.6, Any file larger than 10MB willl have a problem with loading your picture. It is advised to use the latest version available
  
  then in the XML file, create a ImageView with all the necessary components, youre code should look somthing like this 
 
@@ -105,10 +105,6 @@ https://github.com/GursehajHarika/CENG319-Assignment/tree/master/picassoassignme
 below is a GIF attached to show how the application works.
 
 ![picasso_working2](https://user-images.githubusercontent.com/43185907/49633891-0c01fe00-f9c9-11e8-9b3b-8b4bdf376765.gif | 250x250)
-
-
-
-
 
 
 
