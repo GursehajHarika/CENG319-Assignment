@@ -6,17 +6,14 @@
 
 # Introduction 
 
-Pictures make everything more appealing, especially in applications. Picasso image library makes the process of adding that magical element of having a picture in your application easy. usually in a one line of code.
-
-In picasso library, pictures from the Internet, Data and even images from the memory can all be displayed.
+Pictures make everything more appealing, especially in applications. Picasso image library makes the process of adding that magical element of having a picture in your application easy. Usually in a line of code. In picasso library, pictures from the Internet, Data and even images from the memory can all be displayed. This is a developer's dream component to have when dealing with images. it even automates the process of caching images from disk and memory. Image transformation memory use is even reduced when this library is impliment and used.
 
 # History
 
+This is a fairly new component for android released in 2013, this library was created to make the process of downloading or caching images easier.
 
 
-
-
-# The Major Meathods and Attributes
+# The Major Methods and Code For Implementation 
 
 before you could start using the Picasso Library, there are some things that need to be done 
 
@@ -35,6 +32,7 @@ and then pres the '+' icon and choose library. Search for picasso and add picass
 
 <img width="664" alt="picasso_1" src="https://user-images.githubusercontent.com/43185907/49680426-1fad7300-fa62-11e8-816b-aac24655eacf.png">
 
+##OR
 
 First, go into the AndroidManifest.XML
 and add the following permissions,
@@ -91,6 +89,8 @@ if you want to load from the disk try this
         Picasso.get().load(R.mipmap.Image_name).into(imageview);
 
 
+By Following these steps you should be able to sucessfully impliment Picasso Library.
+ 
 
 
 
@@ -108,9 +108,6 @@ below is a GIF attached to show how the application works.
 
 
 
-
-
-# Code 
 
 
 
